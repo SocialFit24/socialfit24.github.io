@@ -1,0 +1,31 @@
+---
+
+let pages = [
+  {
+    name: "Home",
+    url: "/"
+  },
+  {
+    name: "Artikel",
+    url: "/article"
+  },
+  {
+    name: "Über uns",
+    url: "/about"
+  }
+]
+
+const pathname = new URL(Astro.request.url).pathname;
+const path = pathname.split('/')[1]
+---
+<nav class="absolute w-screen shadow-xl p-5 text-xl text-center">
+  <ul>
+    { 
+      pages.map((page: any) => (
+        <li class="inline mx-2">
+          <a class={path == page.url.replace("/","")? "underline underline-offset-4 decoration-4 decoration-indigo-500": ""} href={page.url}>{page.name}</a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

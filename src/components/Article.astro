@@ -1,0 +1,9 @@
+---
+
+const { article } = Astro.props;
+
+---
+<div class="prose xl:prose-lg">
+    <h2>{article.frontmatter.title}</h2>
+    <article.Content></article.Content>
+</div>

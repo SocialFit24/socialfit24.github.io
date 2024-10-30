@@ -1,0 +1,12 @@
+---
+const { article } = Astro.props;
+
+console.log()
+---
+<a href={"/article/" + article.frontmatter.path} class="rounded-lg shadow hover:shadow-xl transition-shadow border">
+    <div class="rounded-t-lg bg-[url(https://cataas.com/cat)] h-52 bg-cover bg-center"></div>
+    <div class="p-3">
+        <h1 class="font-bold">{article.frontmatter.title}</h1>
+        <span>By: {article.frontmatter.author}</span>
+    </div>
+</a>
