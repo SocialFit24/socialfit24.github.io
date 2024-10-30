@@ -11,7 +11,7 @@ const { title = "Social Fit", padding = true } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-  <body class="relative min-h-screen">
+  <body class="relative min-h-screen bg-white">
     <Header></Header>
     <div class={padding == true? "pt-28 mx-auto max-w-4xl px-5 pb-24":"pb-24"}>
         <slot></slot>
