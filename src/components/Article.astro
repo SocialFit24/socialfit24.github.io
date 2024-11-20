@@ -1,0 +1,12 @@
+---
+
+const { article } = Astro.props;
+
+---
+<div>
+    <div class={"bg-[url(https://cataas.com/cat)] w-100 h-80"}></div>
+    <div class="prose xl:prose-lg">
+        <h2>{article.frontmatter.title}</h2>
+        <article.Content></article.Content>
+    </div>
+</div>

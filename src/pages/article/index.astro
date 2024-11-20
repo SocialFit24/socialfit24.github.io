@@ -1,0 +1,20 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro"
+const articles = await Astro.glob('../../content/articles/*.md')
+---
+
+<SiteLayout>
+    <div>
+        <h1 class="text-4xl font-bold pb-5">Artikel</h1>
+        <p class="pb-3">
+            Hier finden sie eine Übersicht über all unsere Artikel rund um den Umgang mit Social Media. <br>
+            Diese haben bestimmt eine Sortierte Reihenfolge. <br>
+            Ich schreib hier jetzt noch irgendwas, damit das wichtiger ausssieht!
+        </p>
+        <hr class="pb-5">
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-flow-row auto-rows-max gap-8 mt-3">
+        {articles.map(article => (<ArticleCard article={article}></ArticleCard>))}
+    </div>
+</SiteLayout>

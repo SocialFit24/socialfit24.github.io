@@ -1,0 +1,19 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+
+import usImage from "../content/about.png";
+import { Image } from "astro:assets";
+---
+
+<SiteLayout>
+    <Image src={usImage} alt="Diego, Leon und Jannis" class="max-w-md rounded-lg shadow-xl mx-auto mb-5 w-11/12"/>
+    <div class="prose mx-auto">
+        <h2>Über uns</h2>
+        <p>
+            Wer sind wir eigentlich? Wir sind Diego, Leon und Jannis. <br>
+            Wir besuchen gerade die 13c der IGS-Seevetal und sind auf dem Weg zu unserem Abitur. In unserem Seminarfach beschäftigen wir uns momentan mit dem Thema Social Media und deren Einflüsse. Heutzutage kommen vermehrt Kinder in immer jüngerem Alter mit den sozialen Medien in Kontakt. <br>
+            <br>
+            Deshalb hatten wir die Idee, diese Website zu erstellen. Diese soll Eltern und aber auch Kinder darüber aufklären, was für Gefahren, aber auch Chancen die sozialen Medien bereithalten. Uns persönlich ist dieses Thema ein sehr wichtiges Anliegen, da wir dem Thema noch sehr nahe sind und so auch aus persönlichen Erfahrungen sprechen können.
+        </p>
+    </div>
+</SiteLayout>
