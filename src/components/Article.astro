@@ -7,16 +7,24 @@ const articles = await Astro.glob('../content/articles/*.md')
 
 ---
 <div>
-    <div class={"bg-[url(https://cataas.com/cat)] w-100 h-80"}></div>
-    <div class="prose xl:prose-lg">
-        <h2 class="mb-0 xl:mb-0">{article.frontmatter.title}</h2>
-        <p class="mb-14 xl:mb-14 text-gray-500 ps-5 italic">Artikel von {article.frontmatter.author}</p>
-        <article.Content></article.Content>
-        <h3>Weitere Artikel</h3>
-        <ArticleCard article={articles.find(_article => _article.frontmatter.path == article.frontmatter.article1)}></ArticleCard>
-        <h3>Quellen</h3>
-        {article.frontmatter.sources?.map((source: string,i: number) => 
-            (<p class="bg-slate-100 px-4 py-2 text-sm"><sup>{i + 1}</sup> <a href={source} target="_blank">{source}</a></p>)
-        )}
+    <div class={"bg-[url('/images/" + article.frontmatter.image + "')] w-100 h-96 bg-cover bg-center"}>
+        <div class="w-full h-full bg-gradient-to-b from-transparent from-50% to-white"></div>
+    </div>
+    <div style="margin-top: -6rem;" class="bg-white mx-auto w-max px-4 pt-3">
+        <div class="prose xl:prose-lg">
+            <h2 class="mb-0 xl:mb-0">{article.frontmatter.title}</h2>
+            <p class="xl:mb-14 text-gray-500 ps-5 italic">Artikel von {article.frontmatter.author}</p>
+            <hr>
+            <article.Content></article.Content>
+            <h2>Weitere Artikel</h2>
+            <div class="not-prose grid grid-cols-1 sm:grid-cols-2 grid-flow-row auto-rows-max gap-8 mt-3">
+                <ArticleCard article={articles.find(_article => _article.frontmatter.path == article.frontmatter.article1)}></ArticleCard>
+                <ArticleCard article={articles.find(_article => _article.frontmatter.path == article.frontmatter.article2)}></ArticleCard>
+            </div>
+            <h3>Quellen</h3>
+            {article.frontmatter.sources?.map((source: string,i: number) => 
+                (<p class="bg-slate-100 px-4 py-2 text-sm"><sup>{i + 1}</sup> <a href={source} target="_blank">{source}</a></p>)
+            )}
+        </div>
     </div>
 </div>

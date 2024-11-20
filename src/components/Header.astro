@@ -18,7 +18,7 @@ let pages = [
 const pathname = new URL(Astro.request.url).pathname;
 const path = pathname.split('/')[1]
 ---
-<nav class="absolute w-screen shadow-xl p-5 text-xl text-center">
+<nav class="absolute w-screen shadow-xl p-5 text-xl text-center z-50">
   <ul>
     { 
       pages.map((page: any) => (
