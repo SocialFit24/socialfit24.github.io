@@ -1,7 +1,9 @@
 ---
 title: "Warum hat social Media aktuell solch eine große Präsenz im alltäglichen Leben?"
 author: "Diego"
-path: "präsenz"
+path: "social_media_präsenz"
+article1: "test1"
+article2: "test2"
 ---
 Die sozialen Medien haben eine immer größere Präsenz im alltäglichen Leben von Jugendlichen und Jungerwachsenen. Dabei ist die Bedeutung von social Media in den letzten Jahren immer weiter angestiegen. Jugendliche und Jungerwachsene im Alter zwischen 14 und 29 Jahren nutzen rund 90 Prozent aller Internetnutzer die sozialen Netzwerke.
 Aber was macht die Plattformen so attraktiv für junge Menschen?

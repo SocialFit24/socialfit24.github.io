@@ -3,7 +3,10 @@
 title: "Was ist eigentlich \"Sozial Media\"?"
 author: "Jannis"
 path: "was_ist_social_media"
-
+image: "social_media.jpg"
+article1: "test1"
+article2: "test2"
+sources: ["https://www.google.com","https://www.igs-seevetal.de"]
 ---
 > **Soziale Medien** oder englisch  **Social Media** sind digitale Medien bzw. Plattformen (Social Software), die es Nutzern ermöglichen, sich im Internet zu vernetzen, sich also untereinander auszutauschen und mediale Inhalte einzeln, in einer definierten Gemeinschaft oder offen in der Gesellschaft zu erstellen, zu diskutieren und weiterzugeben.
 

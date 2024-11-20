@@ -1,9 +1,22 @@
 ---
+import ArticleCard from "./ArticleCard.astro"
 
 const { article } = Astro.props;
 
+const articles = await Astro.glob('../content/articles/*.md')
+
 ---
-<div class="prose xl:prose-lg">
-    <h2>{article.frontmatter.title}</h2>
-    <article.Content></article.Content>
+<div>
+    <div class={"bg-[url(https://cataas.com/cat)] w-100 h-80"}></div>
+    <div class="prose xl:prose-lg">
+        <h2 class="mb-0 xl:mb-0">{article.frontmatter.title}</h2>
+        <p class="mb-14 xl:mb-14 text-gray-500 ps-5 italic">Artikel von {article.frontmatter.author}</p>
+        <article.Content></article.Content>
+        <h3>Weitere Artikel</h3>
+        <ArticleCard article={articles.find(_article => _article.frontmatter.path == article.frontmatter.article1)}></ArticleCard>
+        <h3>Quellen</h3>
+        {article.frontmatter.sources?.map((source: string,i: number) => 
+            (<p class="bg-slate-100 px-4 py-2 text-sm"><sup>{i + 1}</sup> <a href={source} target="_blank">{source}</a></p>)
+        )}
+    </div>
 </div>
