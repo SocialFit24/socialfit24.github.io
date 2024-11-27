@@ -7,7 +7,7 @@ const articles = await Astro.glob('../content/articles/*.md')
 
 ---
 <div>
-    <div class={"bg-[url('/images/" + article.frontmatter.image + "')] w-100 h-96 bg-cover bg-center"}>
+    <div class={"w-100 h-96 bg-cover bg-center"} style={"background-image: url('/images/" + article.frontmatter.image + "');"}>
         <div class="w-full h-full bg-gradient-to-b from-transparent from-50% to-white"></div>
     </div>
     <div style="margin-top: -6rem;" class="bg-white mx-auto w-max px-4 pt-3">
@@ -21,10 +21,27 @@ const articles = await Astro.glob('../content/articles/*.md')
                 <ArticleCard article={articles.find(_article => _article.frontmatter.path == article.frontmatter.article1)}></ArticleCard>
                 <ArticleCard article={articles.find(_article => _article.frontmatter.path == article.frontmatter.article2)}></ArticleCard>
             </div>
+            { 
+                article.frontmatter.sources?.map( (source: string, i: number) => (
+                        <span>
+                            
+                        </span>
+                    )
+                )
+            }
             <h3>Quellen</h3>
-            {article.frontmatter.sources?.map((source: string,i: number) => 
-                (<p class="bg-slate-100 px-4 py-2 text-sm"><sup>{i + 1}</sup> <a href={source} target="_blank">{source}</a></p>)
-            )}
+            <!-- {
+                article.frontmatter.sources?.map((source: string,i: number) => (
+                    <span class="bg-slate-100 px-4 py-2 text-sm"> 
+                        <sup>{i + 1}</sup> 
+                        <p class="truncate"> 
+                            <a href={source} target="_blank"> 
+                                {source} 
+                            </a> 
+                        </p> 
+                    <span/>
+                ))
+            } -->
         </div>
     </div>
 </div>
