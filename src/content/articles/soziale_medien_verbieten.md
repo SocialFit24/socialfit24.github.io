@@ -10,7 +10,7 @@ image: "social_media.jpg"
 
 ---
  
-Die Gefahren von social Media sind weit gefächert. Von Problematischen Inhalten der Plattformen bis hin zu Beleidigungen, Cybermobbing und Sucht. Diese Gefahren, die die Apps innehalten, sollte man sich bewusst machen, um sich und sein Kind rechtzeitig vor diesen zu schützen -> siehe Artikel: "Wie schütze ich mein Kind vor den Gefahren von social Media?". 
+Die Gefahren von social Media sind weit gefächert. Von Problematischen Inhalten der Plattformen bis hin zu Beleidigungen, Cybermobbing und Sucht. Diese Gefahren, die die Apps innehalten, sollte man sich bewusst machen, um sich und sein Kind rechtzeitig vor diesen zu schützen. siehe Artikel: "<a href="/article/gefahr_erkennen">Wie schütze ich mein Kind vor den Gefahren von Social Media?</a>".
 In dem Zusammenhang kommt vielen Eltern der Gedanke bzw. die Idee, dass man sein Kind einfach durch ein Verbot vor solchen Gefahren schützen kann. Doch ist dies der richtige Ansatz?
 
 ### Ist ein Verbot von den Sozialen Medien für mein Kind Sinnvoll? 
