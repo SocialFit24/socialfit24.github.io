@@ -8,13 +8,12 @@ const articles = await Astro.glob('../../content/articles/*.md')
     <div class="pt-14">
         <h1 class="text-4xl font-bold pb-5">Artikel</h1>
         <p class="pb-3">
-            Hier finden sie eine Übersicht über all unsere Artikel rund um den Umgang mit Social Media. <br>
-            Diese haben bestimmt eine Sortierte Reihenfolge. <br>
-            Ich schreib hier jetzt noch irgendwas, damit das wichtiger ausssieht!
+            Entdecken Sie hilfreiche Informationen und praktische Ratschläge rund um den sicheren und bewussten Umgang mit Social Media für Kinder und Jugendliche.<br> 
+            Hier finden Sie wertvolle Ansätze, um Ihre Kinder im digitalen Zeitalter kompetent zu begleiten und zu unterstützen.
         </p>
         <hr class="pb-5">
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-flow-row auto-rows-max gap-8 mt-3">
-        {articles.map(article => (<ArticleCard article={article}></ArticleCard>))}
+        {articles.sort((a,b) => a.frontmatter.order - b.frontmatter.order).map(article => (<ArticleCard article={article}></ArticleCard>))}
     </div>
 </SiteLayout>

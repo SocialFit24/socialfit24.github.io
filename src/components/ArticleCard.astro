@@ -6,6 +6,6 @@ const { article } = Astro.props;
     <div class={"rounded-t-lg h-52 bg-cover bg-center"} style={"background-image: url('/images/" + article.frontmatter.image + "');"}></div>
     <div class="p-3">
         <h1 class="font-bold">{article.frontmatter.title}</h1>
-        <span>By: {article.frontmatter.author}</span>
+        <span class="italic">Von {article.frontmatter.author}</span>
     </div>
 </a>
