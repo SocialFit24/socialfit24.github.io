@@ -11,7 +11,7 @@ sources: [
             "https://www.t-online.de/digital/smartphone/id_82527488/wie-funktioniert-instagram-anleitung-und-wichtigste-funktionen.html",
             "https://openup.com/de/selbstgesteuertes-lernen/blog/gesunder-umgang-social-media/"
         ]
-image: "social_media_2.jpg"
+image: "alltag.png"
 order: 2
 ---
 

@@ -6,7 +6,7 @@ path: "soziale_medien_verbieten"
 article1: "soziale_medien_verbieten"
 article2: "social_media_präsens"
 sources: ["https://www.jugendundmedien.ch/empfehlungen","https://www.jugendundmedien.ch/empfehlungen/empfehlungen-0-7","https://www.zdf.de/nachrichten/ratgeber/ki-social-media-kinder-handyverbot-schule-100.html"]
-image: "social_media.jpg"
+image: "verbot.png"
 order: 4
 ---
  

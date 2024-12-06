@@ -9,7 +9,7 @@ sources: [
         "https://www.schau-hin.info/grundlagen/diese-chancen-bieten-soziale-medien",
         "https://www.easy-tutor.eu/journal/soziale-medien-kinder/"
     ]
-image: "social_media.jpg"
+image: "chance.png"
 order: 5
 ---
 

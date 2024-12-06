@@ -9,7 +9,7 @@ sources: [
         "https://www.dkhw.de/informieren/unsere-themen/kinder-und-medien/medienpaedagogische-tipps-fuer-eltern/",
         "https://www.mimikama.org/eltern-kinder-gutes-vorbild-digitale-welt/"
     ]
-image: "social_media.jpg"
+image: "vorbild.png"
 order: 7
 ---
 

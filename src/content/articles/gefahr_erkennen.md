@@ -11,7 +11,7 @@ sources: [
         "https://www.schuelerhilfe.de/unternehmen/magazin/artikel/social-media-sucht-bei-kindern-vorbeugen-erkennen-und-bekaempfen/#:~:text=Erste%20Anzeichen%20einer%20problematischen%20Social,oder%20gar%20nicht%20mehr%20statt",
         "https://www.familienportal.nrw/de/10-bis-16-jahre/gesundheit-kind/mediensucht"
     ]
-image: "social_media.jpg"
+image: "gefahr.png"
 order: 3
 ---
 

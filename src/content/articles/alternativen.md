@@ -9,7 +9,7 @@ sources: [
         "https://www.aok.de/pk/magazin/familie/kinder/draussen-spielen-darum-ist-es-fuer-kinder-so-wichtig/",
         "https://www.mediensuchthilfe.info/alternative-aktivitaeten/"
     ]
-image: "social_media.jpg"
+image: "green.png"
 order: 6
 ---
 
