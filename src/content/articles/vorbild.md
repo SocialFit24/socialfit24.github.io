@@ -2,7 +2,7 @@
 title: "Wie kann ich als Elternteil meinem Kind ein gutes Vorbild sein?"
 author: "Leon"
 path: "vorbild"
-article1: "gefahr_erkennen"
+article1: "alternativen"
 article2: "soziale_medien_verbieten"
 sources: [
         "https://www.elternguide.online/eltern-als-vorbilder-fuer-die-mediennutzung",

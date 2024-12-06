@@ -35,7 +35,12 @@ const articles = await Astro.glob('../content/articles/*.md');
 	<section id="articles" class="px-5 lg:px-32 py-10 pt-24">
 		<h2 class="text-3xl font-bold pb-4">Empfohlene Artikel:</h2>
 		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-flow-row auto-rows-max gap-8 mt-3">
-			{articles.map(article => (<ArticleCard article={article}></ArticleCard>))}
+			{articles.sort(article => article.frontmatter.path == "social_media_chance"? -1: 1).map(article => 
+				["alternativen","vorbild","social_media_chance"]
+				.includes(article.frontmatter.path)? 
+				(<ArticleCard article={article}></ArticleCard>): 
+				null
+			)}
 		</div>
 	</section>
 </SiteLayout>

@@ -2,8 +2,8 @@
 title: "Inwiefern kann Social Media als Chance für mein Kind gesehen werden?"
 author: "Diego"
 path: "social_media_chance"
-article1: "gefahr_erkennen"
-article2: "soziale_medien_verbieten"
+article1: "soziale_medien_verbieten"
+article2: "alternativen"
 sources: [
         "https://www.kindergesundheit-info.de/themen/medien/mediennutzung/medien-chancen/",
         "https://www.schau-hin.info/grundlagen/diese-chancen-bieten-soziale-medien",

@@ -3,8 +3,8 @@
 title: "Wie erkenne ich Social Media als Gefahr für mein Kind?"
 author: "Leon"
 path: "gefahr_erkennen"
-article1: "soziale_medien_verbieten"
-article2: "social_media_präsens"
+article1: "social_media_präsens"
+article2: "soziale_medien_verbieten"
 sources: [
         "https://www.schau-hin.info/soziale-netzwerke#:~:text=Risiken%20und%20Einstellungen%20im%20Überblick,in%20Kontakt%20zu%20Fremden%20kommen",
         "https://www.kindergesundheit-info.de/themen/medien/mediennutzung/medien-gefahren/#:~:text=Kindern%2C%20die%20sehr%20viel%20Zeit,Merkfähigkeit%20im%20Langzeitgedächtnis%20Schaden%20nehmen",

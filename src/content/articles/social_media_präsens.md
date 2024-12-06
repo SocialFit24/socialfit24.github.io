@@ -2,8 +2,8 @@
 title: "Warum hat Social Media aktuell solch eine große Präsenz im alltäglichen Leben?"
 author: "Diego"
 path: "social_media_präsens"
-article1: "soziale_medien_verbieten"
-article2: "soziale_medien_verbieten"
+article1: "vorbild"
+article2: "gefahr_erkennen"
 sources: [
             "https://www.zeitjung.de/wie-wichtig-sind-uns-soziale-medien-und-welche-rolle-spielen-sie-im-alltag/",
             "https://www.t-online.de/digital/aktuelles/id_100496948/who-studie-social-media-nutzung-bei-jugendlichen-weiter-angestiegen.html",

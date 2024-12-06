@@ -2,8 +2,8 @@
 title: "Welche Alternativen gibt es zu Social Media?"
 author: "Leon"
 path: "alternativen"
-article1: "gefahr_erkennen"
-article2: "soziale_medien_verbieten"
+article1: "social_media_chance"
+article2: "vorbild"
 sources: [
         "https://news.rub.de/wissenschaft/2022-09-05-psychologie-sportrunde-drehen-statt-social-media-story-sehen",
         "https://www.aok.de/pk/magazin/familie/kinder/draussen-spielen-darum-ist-es-fuer-kinder-so-wichtig/",
