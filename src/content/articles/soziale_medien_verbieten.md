@@ -1,7 +1,7 @@
 ---
 
 title: "Sollte ich Soziale Medien für mein Kind verbieten?"
-author: "Diego?"
+author: "Diego"
 path: "soziale_medien_verbieten"
 article1: "soziale_medien_verbieten"
 article2: "social_media_präsens"
